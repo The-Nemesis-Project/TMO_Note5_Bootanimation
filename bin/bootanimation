@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+if [ -f /system/media/bootanimation.zip ]; then
+	/system/bin/bootanimationzip
+else
+	/system/bin/bootanimationqmg
+fi
